@@ -22,15 +22,59 @@
     </script>
     <script type="text/javascript" src="gameplay.js">
     </script>
+
 </head>
 
 <body>
-    <h1>Wasteland</h1>
+    <!--<h1>Wasteland</h1>
     <h3>Play Now!</h3>
     <p>You wake up in a new place surrounded by nothing that you recognize. The sky is a hazy green and nearby is something that possibly could be used as shelter.</p>
-
-    <button>Play now?</button>
+-->
+    <!-- <button>Play now?</button>-->
     <!-- button needs to connect to a new window so that you can enter the game proper.-->
+
+    <!-- js13kGames Tutorial (Zenva)-->
+    <div id="home"></div>
+    <div id="journey">
+        <div id="stats-area">
+            <div class="stat">Day <span id="stat-day" class="stat-value"></span></div>
+            <div class="stat">Distance <span id="stat-distance" class="stat-value"></span></div>
+            <div class="stat">Crew <span id="stat-crew" class="stat-value"></span></div>
+            <div class="stat">Oxen <span id="stat-oxen" class="stat-value"></span></div>
+            <div class="stat">Food <span id="stat-food" class="stat-value"></span></div>
+            <div class="stat">Money <span id="stat-money" class="stat-value"></span></div>
+            <div class="stat">Firepower <span id="stat-firepower" class="stat-value"></span></div>
+            <div class="stat">Weight <span id="stat-weight" class="stat-value"></span><span id="stat-capacity" class="stat-value"></span></div>
+        </div>
+        <div class="updates-area" id="updates-area"></div>
+        <div id="shop" class="hidden">
+            <div id="prods">
+            </div>
+            <button>Leave shop</button>
+        </div>
+        <div id="attack" class="hidden">
+            <div id="attack-description"></div>
+            <button id="fight">Fight</button>
+            <button id="runaway">Run away</button>
+        </div>
+        <div id="progress-area">
+            <img id="caravan" src="images/caravan.png" />
+            <img id="trees" src="images/trees.png" />
+        </div>
+    </div>
+
+    <div id="event"></div>
+    <script src="js/Event.js"></script>
+    <script src="js/Caravan.js"></script>
+    <script src="js/UI.js"></script>
+    <script src="js/Game.js"></script>
+
+
+
+    <!-- couchfriends 
+    <canvas id="game"></canvas>
+    <script src="js/sprites.js"></script>
+    <script src="couchfriend.js"></script> -->
 
 
 
