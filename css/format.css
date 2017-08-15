@@ -37,7 +37,15 @@ h1 {
     background-color: magenta;
 }
 
-#progress-area {
+form {
+    float: left;
+    position: absolute;
+    margin: 10px;
+    top: 45%;
+}
+
+
+/*#progress-area {
     float: left;
     position: relative;
     width: 400px;
@@ -49,11 +57,12 @@ h1 {
     image-rendering: pixelated;
 }
 
+
 #caravan {
     position: absolute;
     bottom: 30px;
     left: 0;
-}
+}*/
 
 #stats-area {
     float: left;
